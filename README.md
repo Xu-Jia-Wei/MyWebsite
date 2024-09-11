@@ -1,1 +1,46 @@
-# MyWebsite
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>自律IT的网站</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <!-- 标题区域 -->
+    <div class="header">
+        <h1>欢迎来到我的网站</h1>
+    </div>
+    <!-- 文字区域 -->
+    <div>
+        <p>名字：徐佳炜</p>
+        <p>学号：20220441223</p>
+    </div>
+
+    <!-- 主容器，包含文字和视频 -->
+    <div class="container">
+        </div>
+        <!-- 文字区域 -->
+        <div class="text">
+            <p>这是一段简短的录屏：</p>
+        </div>
+        <!-- 视频区域 -->
+        <video width="400" height="auto" controls>
+            <source src="video.mp4" type="video/mp4">
+            你的浏览器不支持视频播放
+        </video>
+    </div>
+
+    <!-- 总结区域 -->
+    <div class="contain">
+        <h2>总结</h2>
+        <h3>这次作业我学会了以下内容</h3>
+        <ul>
+            <li>常用文本标签（例如：标题，列表）</li>
+            <li>css导入方式（本次作业我使用了内部样式和外部样式：css.css文件）</li>
+            <li>css选择器（本次作业我使用了类选择器）</li>
+            <li>js的外联样式</li>
+        </ul>
+    </div>
+</body>
+</html>
